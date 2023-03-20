@@ -23,15 +23,17 @@ h1{
 .editor-bar{
     display: flex;
     justify-content: center;
-    width: 55vw;
+    width: 52vw;
     background-color: white;
     box-shadow: 1px 14px 19px black;
+    /* word-wrap: break-word; */
+    border-radius: 8px;
 }
 .material-symbols-outlined{
     color: rgb(0, 0, 0);
 }
 .text-size{
-    position: relative;
+   
     border: none;
     top: 0px;
     width: 5vw;
@@ -51,10 +53,12 @@ button{
     background: transparent;
     border: none;
     padding: 7px 10px;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin:7px 5px 7px 5px ;
 }
-
+button:focus{
+    background: #000;
+    color: white;
+}
 .third{
     border-right: 2px solid rgb(225, 225, 225);
 }
@@ -76,4 +80,24 @@ margin-right: 10px;
 border: none;
 width: 5vw;
 background: none;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: centerl;
+    color: rgb(0, 0, 0);
+    /* width: 3; */
+    margin-top: 50px;
+    background-color: #1a1a1d;
+}
+.content textarea{
+    width: 52vw;
+    height: 35vw;
+    box-shadow: 1px 14px 19px black;box-shadow: 1px 14px 19px black;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 15px;
+    font-size: 2rem;
+    resize: vertical;
 }
