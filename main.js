@@ -30,11 +30,21 @@ function f3(e){
 function f4(e){
     if (textarea.style.textDecoration=="underline")
      {
-        textarea.style.fontStyle="normal";
+        textarea.style.textDecoration="none";
         e.classList.remove("active");
      }
      else{
-        textarea.style.fontStyle="underline";
+        textarea.style.textDecoration="underline";
         e.classList.add("active");
      }
+}
+function f5(e){
+    textarea.style.textAlign="left";
+
+}
+function f6(e){
+    textarea.style.textAlign="center";
+}
+function f7(e){
+    textarea.style.textAlign="right";
 }
