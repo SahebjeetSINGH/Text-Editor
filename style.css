@@ -4,6 +4,7 @@ body{
     height: 100%;
     width: 100%;
     background-color:#1a1a1d;
+    overflow-x: hidden;
 }
 h1{
     display: flex;
@@ -15,6 +16,7 @@ h1{
 }
 .container{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-color: #1a1a1d;
@@ -55,7 +57,7 @@ button{
     padding: 7px 10px;
     margin:7px 5px 7px 5px ;
 }
-button:focus{
+button.active{
     background: #000;
     color: white;
 }
@@ -98,6 +100,6 @@ background: none;
     border-radius: 10px;
     outline: none;
     padding: 15px;
-    font-size: 2rem;
+    font-size: 16px;
     resize: vertical;
 }

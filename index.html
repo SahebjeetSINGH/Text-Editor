@@ -13,27 +13,27 @@
     <h1>TEXT-EDITOR</h1>        
     <div class="container">
         <div class="editor-bar">
-            <input class="text-size" placeholder="16" type="number" min="1" max="100">
-            <button class="material-symbols-outlined">
+            <input class="text-size" placeholder="16" type="number" min="1" max="100" value="16" onclick="f1(this)">
+            <button class="material-symbols-outlined" onclick="f2(this)">
                 format_bold
                 </button>
-            <button class="material-symbols-outlined">
+            <button class="material-symbols-outlined" onclick="f3(this)">
                 format_italic
                     </button>   
-            <button class="material-symbols-outlined second">
+            <button class="material-symbols-outlined second" onclick="f4(this)">
                 format_underlined
                     </button> 
-            <button class="material-symbols-outlined">
+            <button class="material-symbols-outlined" onclick="f5(this)">
                         format_align_left
                     </button>
-             <button class="material-symbols-outlined">
+             <button class="material-symbols-outlined" onclick="f6(this)">
                         format_align_center
              </button>
-             <button class="material-symbols-outlined third">
+             <button class="material-symbols-outlined third" onclick="f7(this)">
                 format_align_right
                 </button>
-             <button class="capslock"><b>aA</button>
-             <input type="color" class="color-palet">
+             <button class="capslock"><b>aA</button onclick="f8(this)">
+             <input type="color" class="color-palet" onclick="f9(this)">
             
         </div>
     </div>  
