@@ -103,3 +103,7 @@ background: none;
     font-size: 16px;
     resize: vertical;
 }
+.align:focus{
+    background: #000;
+    color: white;
+}
